@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Criação de Personagem";
+}
+
+
+<!-- Título -->
+<div class="text-center">
+    <h1 class="display-4">Cadastrar Personagem</h1>
+</div>
+
+<!-- Formulario de criação -->
+<div>
+    <form>
+        <!-- Caixa do nivel -->
+        <div class="form-group">
+            <label for="nvl">Nível</label>
+            <input type="text" class="form-control" placeholder="Nível atual do Personagem">
+        </div>
+
+        <!-- Caixa do nome -->
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" placeholder="Nome do Personagem">
+        </div>
+        
+        <!-- Caixa de classe -->
+        <div class="form-group">
+            <label for="classe">Classe</label>
+            <input type="text" class="form-control" placeholder="Onde o Personagem se encaixa no combate?">
+        </div>
+
+        <!-- Caixa da constelação -->
+        <div class="form-group">
+            <label for="constelacao">Constelação</label>
+            <input type="text" class="form-control" placeholder="Constelação atual do Personagem">
+        </div>
+
+        <!-- Nivel de golpe -->
+        <div class="form-group">
+            <label for="golpe">Nível de Golpe</label>
+            <input type="text" class="form-control" placeholder="Nível de golpe atual do Personagem">
+        </div>
+        
+        <!-- Nivel de habilidade -->
+        <div class="form-group">
+            <label for="habilidade">Nível de Habilidade</label>
+            <input type="text" class="form-control" placeholder="Nível de habilidade atual do Personagem">
+        </div>
+
+        <!-- Nivel de golpe -->
+        <div class="form-group">
+            <label for="ult">Nível de Ultimate</label>
+            <input type="text" class="form-control" placeholder="Nível de ULT atual do Personagem">
+        </div>
+
+        <!-- Caixa do visão -->
+        <div class="form-group">
+            <label for="visao">Visão</label>
+            <input type="text" class="form-control" placeholder="Visão do Personagem">
+        </div>
+
+        <button type="submit" class="btn btn-outline-primary mt-5">Adicionar</button>
+        <a class="btn btn-outline-danger mt-5" asp-controller="Personagem" asp-action="Index" role="button">Voltar</a>
+    </form>
+</div>
