@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Listagem de Personagens";
+}
+
+<div class="text-center">
+
+    <!-- Título -->
+    <div class="text-center">
+        <h1 class="display-4">Listagem de Personagens</h1>
+    </div>
+
+    <!-- Botão de criação de Personagem -->
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start mt-5">
+        <a class="btn btn-outline-primary" role="button" asp-controller="Personagem" asp-action="Criar">Adicionar novo Personagem</a>
+    </div>
+
+    <!-- Tabela com litagem -->
+    <div class="mt-2">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Nível</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Classe</th>
+                    <th scope="col">Constelação</th>
+                    <th scope="col">Golpe</th>
+                    <th scope="col">Habilidade</th>
+                    <th scope="col">Ultimate</th>
+                    <th scope="col">Visão</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">90</th>
+                    <td>Kazuha</td>
+                    <td>Bateria</td>
+                    <td>C0</td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>Anemo</td>
+                    <td>
+                        <a class="btn btn-outline-warning" asp-controller="Personagem" asp-action="Editar">Editar</a>
+                        <a class="btn btn-outline-danger" asp-controller="Personagem" asp-action="Apagar">Excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">90</th>
+                    <td>Itto</td>
+                    <td>DPS</td>
+                    <td>C0</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>Geo</td>
+                    <td>
+                        <a class="btn btn-outline-warning" asp-controller="Personagem" asp-action="Editar">Editar</a>
+                        <a class="btn btn-outline-danger" asp-controller="Personagem" asp-action="Apagar">Excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">90</th>
+                    <td>Zhongli</td>
+                    <td>Escudo</td>
+                    <td>C0</td>
+                    <td>1</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>Geo</td>
+                    <td>
+                        <a class="btn btn-outline-warning" asp-controller="Personagem" asp-action="Editar">Editar</a>
+                        <a class="btn btn-outline-danger" asp-controller="Personagem" asp-action="Apagar">Excluir</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
