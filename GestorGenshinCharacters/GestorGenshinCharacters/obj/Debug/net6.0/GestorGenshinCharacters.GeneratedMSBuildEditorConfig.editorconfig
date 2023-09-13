@@ -12,7 +12,7 @@ build_property.RootNamespace = GestorGenshinCharacters
 build_property.ProjectDir = C:\Users\douglas.rangel\Desktop\Projeto ASPNet MVC\Gestor-de-personagens-Genshin-Impact\GestorGenshinCharacters\GestorGenshinCharacters\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\douglas.rangel\Desktop\Projeto ASPNet MVC\Gestor-de-personagens-Genshin-Impact\GestorGenshinCharacters\GestorGenshinCharacters
 build_property._RazorSourceGeneratorDebug = 
 

@@ -1,4 +1,14 @@
+using GestorGenshinCharacters.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Configura a conexão com o banco de dados
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Adiciona o DbContext
+builder.Services.AddDbContext<BancoContext>(options => options.UseSqlServer(connectionString));
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
