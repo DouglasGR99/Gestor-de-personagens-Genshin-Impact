@@ -3,10 +3,13 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+ConfigurationManager configuration = builder.Configuration;
+IWebHostEnvironment environment = builder.Environment;
+
 // Configura a conexão com o banco de dados
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// Adiciona o DbContext
+// Adiciona o DbContext 
 builder.Services.AddDbContext<BancoContext>(options => options.UseSqlServer(connectionString));
 
 
