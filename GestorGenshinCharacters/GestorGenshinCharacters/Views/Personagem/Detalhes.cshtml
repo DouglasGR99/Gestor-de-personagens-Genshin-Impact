@@ -1,0 +1,148 @@
+﻿@model CentroMemoria.Models.ClassProntuario
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<div class="container">
+    <div class="custom-box">
+
+        <h1 class="display-4">Detalhes</h1>
+        <div class="row mt-4">
+
+            <!-- Status1 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <canvas id="Status1Chart" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Status1</th>
+                                    <th>Quantidade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ATK</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr>
+                                    <td>DEF</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr>
+                                    <td>Pardo</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>Índio</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>Indedefinido</td>
+                                    <td>5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Status2 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <canvas id="Status2Chart" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Status2</th>
+                                    <th>Quantidade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>CBIA</td>
+                                    <td>90</td>
+                                </tr>
+                                <tr>
+                                    <td>CEI</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr>
+                                    <td>FAETEC</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr>
+                                    <td>FUNABEM</td>
+                                    <td>20</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<script>
+    // Os dados devem ser obtidos do seu banco de dados e formatados corretamente.
+    // Aqui, estamos usando dados fictícios como exemplo.
+    const userData = {
+        Status1: {
+            ATK: 40,
+            DEF: 30,
+            Pardo: 20,
+            Indigena: 10,
+            Indefinido: 5
+        },
+        Status2: {
+            CBIA: 90,
+            CEI: 40,
+            FAETEC: 30,
+            FUNABEM: 20
+        }
+    };
+
+
+    // Função para criar um gráfico de pizza
+    function createPieChart(elementId, data) {
+        const ctx = document.getElementById(elementId).getContext('2d');
+        return new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: Object.keys(data),
+                datasets: [{
+                    data: Object.values(data),
+                    backgroundColor: [
+                        'rgba(13,133,131, 0.7)',
+                        'rgba(76,196,197, 0.7)',
+                        'rgba(22,35,155, 0.7)',
+                        'rgba(35,78,189, 0.7)',
+                        'rgba(15,132,198, 0.7)'
+                    ]
+                }]
+            }
+        });
+    }
+
+
+    // Criar os gráficos
+    const Status1Chart = createPieChart('Status1Chart', userData.Status1);
+    const Status2Chart = createPieChart('Status2Chart', userData.Status2);
+</script>

@@ -20,5 +20,9 @@ namespace GestorGenshinCharacters.Controllers
         {
             return View();
         }
+        public IActionResult Detalhes()
+        {
+            return View();
+        }
     }
 }

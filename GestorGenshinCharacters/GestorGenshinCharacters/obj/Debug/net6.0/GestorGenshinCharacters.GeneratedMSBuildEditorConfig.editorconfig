@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWdlbVxDcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/douglas.rangel/Desktop/Projeto ASPNet MVC/Gestor-de-personagens-Genshin-Impact/GestorGenshinCharacters/GestorGenshinCharacters/Views/Personagem/Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWdlbVxEZXRhbGhlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/douglas.rangel/Desktop/Projeto ASPNet MVC/Gestor-de-personagens-Genshin-Impact/GestorGenshinCharacters/GestorGenshinCharacters/Views/Personagem/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYWdlbVxFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
