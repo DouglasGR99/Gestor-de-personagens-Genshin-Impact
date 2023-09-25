@@ -19,7 +19,7 @@ body {
 
 /* Classe CSS "bloco-fofinho" */
 .bloco-fofinho {
-    background-color: #f5f5f5; /* Fundo pastel */
+    background-color: #F9F1F0; /* Fundo pastel */
     border: 1px solid #e0e0e0; /* Borda suave */
     padding: 20px; /* Espaçamento interno */
     border-radius: 10px; /* Cantos arredondados */
@@ -28,7 +28,7 @@ body {
 }
 
     .bloco-fofinho h2 {
-        color: #ff6f61; /* Cor do título */
+        color: #880d1e; /* Cor do título */
         font-size: 1.5em; /* Tamanho do título */
         margin-bottom: 10px; /* Espaçamento inferior do título */
     }
@@ -45,7 +45,44 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('Imagens/aloalo.jpg'); /* imagem de fundo */
+    background-image: url('Imagens/aloalo.png'); /* imagem de fundo */
     background-size: cover;
     z-index: -1; /* Coloca a imagem de fundo atrás do conteúdo */
 }
+
+.btn-outline-create {
+    color: #189AB4; /* Cor do texto */
+    background-color: transparent; /* Fundo transparente */
+    border-color: #189AB4; /* Cor da borda */
+}
+
+    .btn-outline-create:hover {
+        color: #fff; /* Cor do texto ao passar o mouse */
+        background-color: #189AB4; /* Fundo ao passar o mouse */
+        border-color: #189AB4; /* Cor da borda ao passar o mouse */
+    }
+
+.btn-outline-edit {
+    color: #81B622; /* Cor do texto */
+    background-color: transparent; /* Fundo transparente */
+    border-color: #81B622; /* Cor da borda */
+}
+
+    .btn-outline-edit:hover {
+        color: #fff; /* Cor do texto ao passar o mouse */
+        background-color: #81B622; /* Fundo ao passar o mouse */
+        border-color: #81B622; /* Cor da borda ao passar o mouse */
+    }
+
+.btn-outline-delete {
+    color: #E42256; /* Cor do texto */
+    background-color: transparent; /* Fundo transparente */
+    border-color: #E42256; /* Cor da borda */
+}
+
+    .btn-outline-delete:hover {
+        color: #fff; /* Cor do texto ao passar o mouse */
+        background-color: #E42256; /* Fundo ao passar o mouse */
+        border-color: #E42256; /* Cor da borda ao passar o mouse */
+    }
+

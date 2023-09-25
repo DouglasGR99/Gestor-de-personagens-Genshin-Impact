@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WoHuzoKAf5lSQpQFnuPta6fzQiTWBs0ho0vwtoav2qc=",
+  "Hash": "bkVBMyudFO/erssOKNKzJ02TrqYk7M4p88IOfUlyoDk=",
   "Source": "GestorGenshinCharacters",
   "BasePath": "_content/GestorGenshinCharacters",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GestorGenshinCharacters.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\css\\Imagens\\aloalo.png",
+      "SourceId": "GestorGenshinCharacters",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\",
+      "BasePath": "_content/GestorGenshinCharacters",
+      "RelativePath": "css/Imagens/aloalo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Imagens\\aloalo.png"
     },
     {
       "Identity": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\css\\site.css",
