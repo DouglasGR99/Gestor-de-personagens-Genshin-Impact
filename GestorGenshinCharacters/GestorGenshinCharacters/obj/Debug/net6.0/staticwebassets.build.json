@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bkVBMyudFO/erssOKNKzJ02TrqYk7M4p88IOfUlyoDk=",
+  "Hash": "4wLhv27IpfLoic6/a1cFkfkrAAmFPHgcSDaQIaxC0TA=",
   "Source": "GestorGenshinCharacters",
   "BasePath": "_content/GestorGenshinCharacters",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Imagens\\aloalo.png"
+    },
+    {
+      "Identity": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\css\\Imagens\\characters.jpg",
+      "SourceId": "GestorGenshinCharacters",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\",
+      "BasePath": "_content/GestorGenshinCharacters",
+      "RelativePath": "css/Imagens/characters.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Imagens\\characters.jpg"
     },
     {
       "Identity": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\css\\site.css",

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\Imagens\\aloalo.png"
     },
     {
+      "Id": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\css\\Imagens\\characters.jpg",
+      "PackagePath": "staticwebassets\\css\\Imagens\\characters.jpg"
+    },
+    {
       "Id": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

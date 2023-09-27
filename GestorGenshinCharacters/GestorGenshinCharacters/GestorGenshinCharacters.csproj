@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Personagem\NovaPasta\**" />
+    <Content Remove="Views\Personagem\NovaPasta\**" />
+    <EmbeddedResource Remove="Views\Personagem\NovaPasta\**" />
+    <None Remove="Views\Personagem\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\Imagens\characters.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.22" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">

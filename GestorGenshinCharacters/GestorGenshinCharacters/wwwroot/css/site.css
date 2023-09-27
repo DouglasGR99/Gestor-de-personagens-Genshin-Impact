@@ -54,6 +54,7 @@ body {
     color: #189AB4; /* Cor do texto */
     background-color: transparent; /* Fundo transparente */
     border-color: #189AB4; /* Cor da borda */
+    border-radius: 100px;
 }
 
     .btn-outline-create:hover {
@@ -66,6 +67,7 @@ body {
     color: #81B622; /* Cor do texto */
     background-color: transparent; /* Fundo transparente */
     border-color: #81B622; /* Cor da borda */
+    border-radius: 100px;
 }
 
     .btn-outline-edit:hover {
@@ -78,6 +80,7 @@ body {
     color: #E42256; /* Cor do texto */
     background-color: transparent; /* Fundo transparente */
     border-color: #E42256; /* Cor da borda */
+    border-radius: 100px;
 }
 
     .btn-outline-delete:hover {
@@ -86,3 +89,43 @@ body {
         border-color: #E42256; /* Cor da borda ao passar o mouse */
     }
 
+
+.bloco {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+    .bloco img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        transition: filter 0.3s ease;
+    }
+
+    .bloco .texto {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        z-index: 2;
+        transition: opacity 0.3s ease;
+    }
+
+    .bloco:hover img {
+        filter: blur(5px);
+    }
+
+    .bloco:hover .texto {
+        opacity: 1;
+    }
+
+.socorro {
+    background-image: url('Imagens/characters.jpg'); /* imagem de fundo */
+}
