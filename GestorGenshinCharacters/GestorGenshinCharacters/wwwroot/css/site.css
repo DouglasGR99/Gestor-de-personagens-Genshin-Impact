@@ -125,7 +125,3 @@ body {
     .bloco:hover .texto {
         opacity: 1;
     }
-
-.socorro {
-    background-image: url('Imagens/characters.jpg'); /* imagem de fundo */
-}
