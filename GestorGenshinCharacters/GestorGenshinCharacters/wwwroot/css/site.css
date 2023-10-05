@@ -64,13 +64,26 @@ body {
     }
 
 .btn-outline-edit {
+    color: #fda923; /* Cor do texto */
+    background-color: transparent; /* Fundo transparente */
+    border-color: #fda923; /* Cor da borda */
+    border-radius: 100px;
+}
+
+    .btn-outline-edit:hover {
+        color: #fff; /* Cor do texto ao passar o mouse */
+        background-color: #fda923; /* Fundo ao passar o mouse */
+        border-color: #fda923; /* Cor da borda ao passar o mouse */
+    }
+
+.btn-outline-detail {
     color: #81B622; /* Cor do texto */
     background-color: transparent; /* Fundo transparente */
     border-color: #81B622; /* Cor da borda */
     border-radius: 100px;
 }
 
-    .btn-outline-edit:hover {
+    .btn-outline-detail:hover {
         color: #fff; /* Cor do texto ao passar o mouse */
         background-color: #81B622; /* Fundo ao passar o mouse */
         border-color: #81B622; /* Cor da borda ao passar o mouse */
