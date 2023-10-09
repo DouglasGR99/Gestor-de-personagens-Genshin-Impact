@@ -61,6 +61,7 @@ body {
         color: #fff; /* Cor do texto ao passar o mouse */
         background-color: #189AB4; /* Fundo ao passar o mouse */
         border-color: #189AB4; /* Cor da borda ao passar o mouse */
+        transform: scale(1.1);
     }
 
 .btn-outline-edit {
@@ -74,6 +75,7 @@ body {
         color: #fff; /* Cor do texto ao passar o mouse */
         background-color: #fda923; /* Fundo ao passar o mouse */
         border-color: #fda923; /* Cor da borda ao passar o mouse */
+        transform: scale(1.1);
     }
 
 .btn-outline-detail {
@@ -87,6 +89,7 @@ body {
         color: #fff; /* Cor do texto ao passar o mouse */
         background-color: #81B622; /* Fundo ao passar o mouse */
         border-color: #81B622; /* Cor da borda ao passar o mouse */
+        transform: scale(1.1);
     }
 
 .btn-outline-delete {
@@ -100,6 +103,7 @@ body {
         color: #fff; /* Cor do texto ao passar o mouse */
         background-color: #E42256; /* Fundo ao passar o mouse */
         border-color: #E42256; /* Cor da borda ao passar o mouse */
+        transform: scale(1.1);
     }
 
 
