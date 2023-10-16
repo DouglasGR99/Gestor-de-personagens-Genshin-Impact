@@ -17,6 +17,43 @@ body {
   margin-bottom: 60px;
 }
 
+/* Bloco */
+.bloco {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+    .bloco img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        transition: filter 0.3s ease;
+    }
+
+    .bloco .texto {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        z-index: 2;
+        transition: opacity 0.3s ease;
+    }
+
+    .bloco:hover img {
+        filter: blur(5px);
+    }
+
+    .bloco:hover .texto {
+        opacity: 1;
+    }
+
 /* Classe CSS "bloco-fofinho" */
 .bloco-fofinho {
     background-color: #F9F1F0; /* Fundo pastel */
@@ -104,41 +141,4 @@ body {
         background-color: #E42256; /* Fundo ao passar o mouse */
         border-color: #E42256; /* Cor da borda ao passar o mouse */
         transform: scale(1.1);
-    }
-
-
-.bloco {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 15px;
-}
-
-    .bloco img {
-        width: 100%;
-        height: auto;
-        border-radius: 15px;
-        transition: filter 0.3s ease;
-    }
-
-    .bloco .texto {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        text-align: center;
-        color: #fff;
-        font-size: 20px;
-        font-weight: bold;
-        z-index: 2;
-        transition: opacity 0.3s ease;
-    }
-
-    .bloco:hover img {
-        filter: blur(5px);
-    }
-
-    .bloco:hover .texto {
-        opacity: 1;
     }
