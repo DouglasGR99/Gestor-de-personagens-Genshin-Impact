@@ -36,8 +36,24 @@
                                     <td>200</td>
                                 </tr>
                                 <tr>
+                                    <td>HP</td>
+                                    <td>2000</td>
+                                </tr>
+                                <tr>
                                     <td>Elemental Mastery</td>
                                     <td>150</td>
+                                </tr>
+                                <tr>
+                                    <td>EnergyRecharge</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>Crit Hate</td>
+                                    <td>60</td>
+                                </tr>
+                                <tr>
+                                    <td>CritDMG</td>
+                                    <td>90</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -66,11 +82,27 @@
                                 </tr>
                                 <tr>
                                     <td>DEF</td>
-                                    <td>100</td>
+                                    <td>150</td>
+                                </tr>
+                                <tr>
+                                    <td>HP</td>
+                                    <td>2190</td>
                                 </tr>
                                 <tr>
                                     <td>Elemental Mastery</td>
                                     <td>350</td>
+                                </tr>
+                                <tr>
+                                    <td>EnergyRecharge</td>
+                                    <td>50</td>
+                                </tr>
+                                <tr>
+                                    <td>Crit Hate</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr>
+                                    <td>CritDMG</td>
+                                    <td>11'0</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -87,7 +119,6 @@
             Status1: {
                 ATK: 600,
                 DEF: 200,
-                HP: 2000,
                 ElementalMastery: 150,
                 EnergyRecharge: 20,
                 CritHate: 60,
@@ -96,7 +127,6 @@
             Status2: {
                 ATK: 650,
                 DEF: 100,
-                HP: 2190,
                 ElementalMastery: 350,
                 EnergyRecharge: 50,
                 CritHate: 40,
@@ -106,10 +136,10 @@
 
 
         // Função para criar um gráfico de pizza
-        function createPieChart(elementId, data) {
+        function createRadarChart(elementId, data) {
             const ctx = document.getElementById(elementId).getContext('2d');
             return new Chart(ctx, {
-                type: 'pie',
+                type: 'radar',
                 data: {
                     labels: Object.keys(data),
                     datasets: [{
@@ -130,7 +160,7 @@
 
 
         // Criar os gráficos
-        const Status1Chart = createPieChart('Status1Chart', userData.Status1);
-        const Status2Chart = createPieChart('Status2Chart', userData.Status2);
+        const Status1Chart = createRadarChart('Status1Chart', userData.Status1);
+        const Status2Chart = createRadarChart('Status2Chart', userData.Status2);
     </script>
 </body>
