@@ -2,7 +2,7 @@
     ViewData["Title"] = "Listagem de Personagens";
 }
 
-<div class="bloco-fofinho">
+<div class="bloco-fofinho" ng-controller="PersonagemController">
     <div class="text-center">
 
         <!-- Título -->
@@ -32,45 +32,15 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row">90</th>
-                        <td>Kazuha</td>
-                        <td>Bateria</td>
-                        <td>C0</td>
-                        <td>1</td>
-                        <td>10</td>
-                        <td>7</td>
-                        <td>Anemo</td>
-                        <td>
-                            <a role="button" class="btn btn-outline-detail" asp-controller="Personagem" asp-action="Detalhes">Detalhes</a>
-                            <a role="button" class="btn btn-outline-edit" asp-controller="Personagem" asp-action="Editar">Editar</a>
-                            <a role="button" class="btn btn-outline-delete" asp-controller="Personagem" asp-action="Apagar">Excluir</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">90</th>
-                        <td>Itto</td>
-                        <td>DPS</td>
-                        <td>C0</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>10</td>
-                        <td>Geo</td>
-                        <td>
-                            <a role="button" class="btn btn-outline-detail" asp-controller="Personagem" asp-action="Detalhes">Detalhes</a>
-                            <a role="button" class="btn btn-outline-edit" asp-controller="Personagem" asp-action="Editar">Editar</a>
-                            <a role="button" class="btn btn-outline-delete" asp-controller="Personagem" asp-action="Apagar">Excluir</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">90</th>
-                        <td>Zhongli</td>
-                        <td>Escudo</td>
-                        <td>C0</td>
-                        <td>1</td>
-                        <td>8</td>
-                        <td>8</td>
-                        <td>Geo</td>
+                    <tr ng-repeat="personagem in personagens" ng-click="selecionaPersonagem(personagem)">
+                        <td scope="row"> {{ personagem.Nivel }} </td>
+                        <td> {{ personagem.Nome }} </td>
+                        <td> {{ personagem.Classe }} </td>
+                        <td> {{ personagem.Constelacao }} </td>
+                        <td> {{ personagem.Golpe }} </td>
+                        <td> {{ personagem.Habilidade }} </td>
+                        <td> {{ personagem.Ultimate }} </td>
+                        <td> {{ personagem.Visao }} </td>
                         <td>
                             <a role="button" class="btn btn-outline-detail" asp-controller="Personagem" asp-action="Detalhes">Detalhes</a>
                             <a role="button" class="btn btn-outline-edit" asp-controller="Personagem" asp-action="Editar">Editar</a>

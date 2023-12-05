@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\js\\AngularController\\PersonagemController.js",
+      "PackagePath": "staticwebassets\\js\\AngularController\\PersonagemController.js"
+    },
+    {
+      "Id": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\js\\AngularController\\main.js",
+      "PackagePath": "staticwebassets\\js\\AngularController\\main.js"
+    },
+    {
       "Id": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

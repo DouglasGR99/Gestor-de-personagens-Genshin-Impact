@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a7oB2ncVI/3gDjBZkQFV6JpkTetiQ4KFvB5kL+65Atg=",
+  "Hash": "OG+LGRayqIM+M1OUIL9+L+5gql1hPEm5G9KB54Tmmow=",
   "Source": "GestorGenshinCharacters",
   "BasePath": "_content/GestorGenshinCharacters",
   "Mode": "Default",
@@ -117,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\js\\AngularController\\main.js",
+      "SourceId": "GestorGenshinCharacters",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\",
+      "BasePath": "_content/GestorGenshinCharacters",
+      "RelativePath": "js/AngularController/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\AngularController\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\js\\AngularController\\PersonagemController.js",
+      "SourceId": "GestorGenshinCharacters",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\",
+      "BasePath": "_content/GestorGenshinCharacters",
+      "RelativePath": "js/AngularController/PersonagemController.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\AngularController\\PersonagemController.js"
     },
     {
       "Identity": "C:\\Users\\douglas.rangel\\Desktop\\Projeto ASPNet MVC\\Gestor-de-personagens-Genshin-Impact\\GestorGenshinCharacters\\GestorGenshinCharacters\\wwwroot\\js\\site.js",
