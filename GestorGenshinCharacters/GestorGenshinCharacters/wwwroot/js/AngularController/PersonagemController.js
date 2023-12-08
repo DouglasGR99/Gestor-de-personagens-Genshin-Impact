@@ -10,7 +10,14 @@
             Golpe:'1',
             Habilidade:'10',
             Ultimate:'7',
-            Visao:'Anemo'
+            Visao: 'Anemo',
+            ATK:'100',
+            DEF:'200',
+            HP: '300',
+            ElementalMastery: '100',
+            EnergyRecharge: '500',
+            CritHate: '100%',
+            CritDMG: '400%'
         },
         {
             Nome: 'Itto',
@@ -20,7 +27,14 @@
             Golpe: '10',
             Habilidade: '8',
             Ultimate: '10',
-            Visao: 'Geo'
+            Visao: 'Geo',
+            ATK: '200',
+            DEF: '300',
+            HP: '100',
+            ElementalMastery: '400',
+            EnergyRecharge: '600',
+            CritHate: '100%',
+            CritDMG: '100%'
         },
         {
             Nome: 'Zhongli',
@@ -30,7 +44,14 @@
             Golpe: '1',
             Habilidade: '8',
             Ultimate: '8',
-            Visao: 'Geo'
+            Visao: 'Geo',
+            ATK: '100',
+            DEF: '200',
+            HP: '300',
+            ElementalMastery: '400',
+            EnergyRecharge: '500',
+            CritHate: '600%',
+            CritDMG: '700%'
         }
     ];
 
@@ -48,3 +69,6 @@
         $scope.personagemEditado = angular.copy(personagem);
     };
 });
+
+
+

@@ -61,57 +61,6 @@
                 </div>
             </div>
 
-            <!-- Status2 -->
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-header">
-                        <canvas id="Status2Chart" width="400" height="400"></canvas>
-                    </div>
-                    <div class="card-body">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Status2</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>ATK</td>
-                                    <td>650</td>
-                                </tr>
-                                <tr>
-                                    <td>DEF</td>
-                                    <td>150</td>
-                                </tr>
-                                <tr>
-                                    <td>HP</td>
-                                    <td>2190</td>
-                                </tr>
-                                <tr>
-                                    <td>Elemental Mastery</td>
-                                    <td>350</td>
-                                </tr>
-                                <tr>
-                                    <td>EnergyRecharge</td>
-                                    <td>50</td>
-                                </tr>
-                                <tr>
-                                    <td>Crit Hate</td>
-                                    <td>40</td>
-                                </tr>
-                                <tr>
-                                    <td>CritDMG</td>
-                                    <td>11'0</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script>
         // Os dados devem ser obtidos do seu banco de dados e formatados corretamente.
         // Aqui, estamos usando dados fictícios como exemplo.
@@ -123,14 +72,6 @@
                 EnergyRecharge: 20,
                 CritHate: 60,
                 CritDMG: 90
-            },
-            Status2: {
-                ATK: 650,
-                DEF: 100,
-                ElementalMastery: 350,
-                EnergyRecharge: 50,
-                CritHate: 40,
-                CritDMG: 110
             }
         };
 
@@ -161,6 +102,5 @@
 
         // Criar os gráficos
         const Status1Chart = createRadarChart('Status1Chart', userData.Status1);
-        const Status2Chart = createRadarChart('Status2Chart', userData.Status2);
     </script>
 </body>
