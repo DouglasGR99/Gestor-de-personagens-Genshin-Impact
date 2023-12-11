@@ -53,7 +53,22 @@
             CritHate: '600%',
             CritDMG: '700%'
         }
-    ];
+        ];
+
+        $scope.verDetalhes = function (personagem) {
+            // Redirecionar para a página de detalhes com base no ID ou outro identificador único do personagem
+            // Aqui você pode usar um serviço de roteamento do AngularJS, como $location.path() ou $state.go()
+            // Passando o ID ou outras informações necessárias para a página de detalhes
+            // Exemplo (considerando que você tenha um ID para cada personagem):
+            $location.path('/detalhes/' + personagem.Id); // Substitua 'Id' pelo identificador real do personagem
+        };
+
+        $scope.editarPersonagem = function (personagem) {
+            // Redirecionar para a página de edição com base no ID ou outro identificador único do personagem
+            // Da mesma forma, use o serviço de roteamento do AngularJS para redirecionar para a página de edição
+            $location.path('/editar/' + personagem.Id); // Substitua 'Id' pelo identificador real do personagem
+        };
+
 
     $scope.personagemEditado = {}; // Objeto para armazenar os dados do personagem em edição
 
